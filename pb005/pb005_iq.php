@@ -43,9 +43,9 @@ echo 'execution time : '; echo microtime(true)-$start;
 
 // result : 232792560
 
-//Créer un tableau de 1 à 20
-//pour chaque case, décomposer en facteur premier (12 =2*2*3)
-//si un facteur est trouvé (2), regarder s'il peut l'etre plusieurs fois (2^x)
-// dans ce cas, décaler le 2^x dns la case du 2 (s'il est plus grand que ce qui y est déjà) et mettre le reste 
-// donc 3 dans la case du 3 (vérifier au besoin si on est aussi sur un nombre qui peut s'écrire 
+//CrÃ©er un tableau de 1 Ã  20
+//pour chaque case, dÃ©composer en facteur premier (12 =2*2*3)
+//si un facteur est trouvÃ© (2), regarder s'il peut l'etre plusieurs fois (2^x)
+// dans ce cas, dÃ©caler le 2^x dns la case du 2 (s'il est plus grand que ce qui y est dÃ©jÃ ) et mettre le reste 
+// donc 3 dans la case du 3 (vÃ©rifier au besoin si on est aussi sur un nombre qui peut s'Ã©crire 
 ?>
